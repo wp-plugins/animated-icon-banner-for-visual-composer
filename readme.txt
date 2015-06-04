@@ -16,8 +16,10 @@ About AIDB in a Nutshell
 Animated Icons Doo Banner is an addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages.
 
 Main Features:
-*   Unlimited possibilities
-*   IE8+ support
+<ul>
+<li>Unlimited possibilities</li>
+<li>IE8+ support</li>
+</ul>
 *   Fully Responsive
 *   Highly Optimized Code
 *   Light-weight HTML structures
