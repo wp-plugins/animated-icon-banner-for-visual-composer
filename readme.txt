@@ -16,17 +16,18 @@ About AIDB in a Nutshell
 Animated Icons Doo Banner is an addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages.
 
 Main Features:
-Unlimited possibilities
-IE8+ support
-Fully Responsive
-Highly Optimized Code
-Light-weight HTML structures
-Rigorously Tested on Actual Devices for Real
-World Performance Metrics
-Trusted development & Support
+*   Unlimited possibilities
+*   IE8+ support
+*   Fully Responsive
+*   Highly Optimized Code
+*   Light-weight HTML structures
+*   Rigorously Tested on Actual Devices for Real
+*   World Performance Metrics
+*   Trusted development & Support
+
 Requirements & Compatibility
-- Browsers: Chrome, Safari, Internet Explorer 8+, Firefox and Opera
-- Platforms: Android, iOS, Mac OS and Windows.
+*   Browsers: Chrome, Safari, Internet Explorer 8+, Firefox and Opera
+*   Platforms: Android, iOS, Mac OS and Windows.
 
 Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or greater; Visual Composer 4.3 or later).
 
