@@ -52,6 +52,7 @@ You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo
 1. /assets/anteprima2.jpg
 1. ./anteprima3.jpg
 
-== Frequently Asked Questions == section was found
-== Changelog == section was found
-== Upgrade Notice == section was found
+
+== Changelog ==
+== Upgrade Notice ==
+
