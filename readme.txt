@@ -35,14 +35,14 @@ Requirements & Compatibility
 
 Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or greater; Visual Composer 4.3 or later).
 
+You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
+
 == Installation ==
 <ol>
 <li>Upload the vc_doo_banner folder to the /wp-content/plugins/ directory</li>
 <li>Activate the Animated Icon Doo Banner plugin through the 'Plugins' menu in WordPress</li>
 <li>Use new 'Overlay Banner' component in Visual Composer</li>
 </ol>
-
-You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
 
 == Frequently Asked Questions == Frequently Asked Questions
 == Changelog == Changelog

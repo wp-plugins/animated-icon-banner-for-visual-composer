@@ -44,11 +44,7 @@ Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or gre
 
 You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
 
-== Frequently Asked Questions ==
-
-== Screenshots ==
-
-== Changelog ==
-
-== Upgrade Notice ==
-
+== Frequently Asked Questions == Frequently Asked Questions
+== Changelog == Changelog
+== Upgrade Notice == Upgrade Notice
+== Screenshots == Screenshots
