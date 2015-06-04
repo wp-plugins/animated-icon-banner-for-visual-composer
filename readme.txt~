@@ -43,9 +43,8 @@ Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or gre
 </ol>
 
 == Screenshots ==
-1. /assets/anteprima.jpg
-2. anteprima2.jpg
-3. anteprima3.jpg
+1. This screen shot description corresponds to anteprima.jpg.
+<img src="/assets/anteprima.jpg">
 
 == Frequently Asked Questions == section was found
 == Changelog == section was found
