@@ -47,12 +47,8 @@ You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo
 == Frequently Asked Questions ==
 
 == Screenshots ==
-1. This screen shot description corresponds to anteprima.jpg.
-<img src="/assets/anteprima.jpg">
-1. /assets/anteprima2.jpg
-1. ./anteprima3.jpg
-
 
 == Changelog ==
+
 == Upgrade Notice ==
 
