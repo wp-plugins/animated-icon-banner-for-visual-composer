@@ -39,7 +39,7 @@ Activate the Animated Icon Doo Banner plugin through the \'Plugins\' menu in Wor
 Use new \'Overlay Banner\' component in Visual Composer
 
 == Screenshots ==
-1. anteprima.jpg
+1. /assets/anteprima.jpg
 2. anteprima2.jpg
 3. anteprima3.jpg
 
