@@ -42,9 +42,15 @@ Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or gre
 <li>Use new 'Overlay Banner' component in Visual Composer</li>
 </ol>
 
+You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
+
+== Frequently Asked Questions ==
+
 == Screenshots ==
 1. This screen shot description corresponds to anteprima.jpg.
 <img src="/assets/anteprima.jpg">
+1. /assets/anteprima2.jpg
+1. anteprima3.jpg
 
 == Frequently Asked Questions == section was found
 == Changelog == section was found
