@@ -74,7 +74,7 @@ add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
 vc_map( array(
 	"base" => "vc_doo_banner",
-	"name" => __( "Overlay Banner", "samu-text-domain" ),
+	"name" => __( "Animated Icon Doo Banner", "samu-text-domain" ),
 	"icon" => "dt_vc_ico_banner2",
     'admin_enqueue_css' => array(get_template_directory_uri().'/vc_doo_banner.css'),
 	'category' => __( 'DiAdvanced', 'js_composer' ),
