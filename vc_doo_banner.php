@@ -43,7 +43,7 @@ function vc_doo_banner_func( $atts, $content) {
 		'height' => 'height',
 		'link' => 'link'
     ), $atts ) );
-$href = vc_build_link( $link);
+    $href = vc_build_link( $link);
     $end_content = '<a class="service websites" style="background-color:'.$background.';  height:'.$height.'px;" href="'.$href['url'].'" title="'.$href['title'].'">
                                 <span class="static">
                                     <span class="vcenter-parent">
@@ -70,6 +70,8 @@ $href = vc_build_link( $link);
 add_shortcode( 'vc_doo_banner', 'vc_doo_banner_func');
 
 
+add_action( 'vc_before_init', 'your_name_integrateWithVC' );
+function your_name_integrateWithVC() {
 vc_map( array(
 	"base" => "vc_doo_banner",
 	"name" => __( "Overlay Banner", "samu-text-domain" ),
@@ -154,6 +156,8 @@ vc_map( array(
         )	
     )
 ) );
+}
+ 
 
 // This function provides a functionality of adding content elements into element
 //class WPBakeryShortCode_SC_Slide extends WPBakeryShortCodesContainer {}
