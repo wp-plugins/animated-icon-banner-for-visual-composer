@@ -2,7 +2,7 @@
 /*
 Plugin Name: Animated Doo Banners
 Description: Advance Banner for Visual Composer
-Version: 1.2
+Version: 1.3
 Author: Diego Benna
 Author URI: http://www.diegobenna.it
 License: GPL2
@@ -299,6 +299,132 @@ vc_map( array(
 ) );
 }
  
+
+/* fashion banner */
+
+function vc_doo_fashion_banner_func( $atts, $content) {
+ extract( shortcode_atts( array(
+        'bg_image' => 'bg_image',
+		'image_size' => 'image_size',
+        'header' => 'header',
+	    'header2' => 'header2',
+	 	'title_font_size' => 'title_font_size',
+		'title_overlay_font_color' => 'title_overlay_font_color',
+		'description_font_color'=>'description_font_color',
+		'description_font_size'=>'description_font_size',	 
+		'background_overlay'=>'background_overlay',
+		'height' => 'height',
+		'link' => 'link'
+    ), $atts ) );
+    $href = vc_build_link( $link);
+    $end_content = '<div class="grid"><figure style="height:'.$height.'; background: '.$background_overlay.';" class="effect-lily">
+'.wp_get_attachment_image($bg_image, "full" ).'
+						<figcaption >
+							<div>
+								<h2 style="color:'.$title_overlay_font_color.';font-size:'.$title_font_size.';">'.$header.' <span>'.$header2.'</span></h2>
+								<p style="color:'.$description_font_color.';font-size:'.$description_font_size.';">'.$content.'</p>
+							</div>
+							<a class="service websites" href="'.$href['url'].'" title="'.$href['title'].'">View more</a>
+						</figcaption>			
+					</figure></div>';					
+					
+				
+ 
+    return $end_content;  
+}  
+add_shortcode( 'vc_doo_fashion_banner', 'vc_doo_fashion_banner_func');
+
+
+add_action( 'vc_before_init', 'vc_doo_fashion_integrateWithVC' );
+function vc_doo_fashion_integrateWithVC() {
+vc_map( array(
+	"base" => "vc_doo_fashion_banner",
+	"name" => __( "Doo Fashion Banner", "samu-text-domain" ),
+	"icon" => "dt_vc_fashion_banner",
+    'admin_enqueue_css' => array(get_template_directory_uri().'/vc_doo_banner.css'),
+	'category' => __( 'DiAdvanced', 'js_composer' ),
+	'description' => __( 'Animated panel', 'js_composer' ),
+    "params" => array(
+        array(
+            "type" => "attach_image", // it will bind a img choice in WP
+            "heading" => __("Background image", "js_composer"),	
+            "param_name" => "bg_image",
+        ),
+        array(
+            "type" => "textfield",
+            "heading" => __("Height", "js_composer"),
+			"value" => __( "100%", "samu-text-domain" ),
+            "description" => __( "Banner max height in px.", "samu-text-domain" ),			
+            "param_name" => "height",
+        ),		
+
+        array(
+            "type" => "textfield", 
+            "heading" => __("Title", "js_composer"),
+			"value" => __( "PANEL", "samu-text-domain" ),
+            "param_name" => "header",
+        ),
+		
+        array(
+            "type" => "textfield", 
+            "heading" => __("Bold title", "js_composer"),
+			"value" => __( "TITLE", "samu-text-domain" ),
+            "param_name" => "header2",
+        ),		
+		
+        array(
+            "type" => "textfield", 
+            "heading" => __("Title font size", "js_composer"),
+			"value" => __( "30px", "samu-text-domain" ),
+            "param_name" => "title_font_size",
+        ),
+		
+
+		
+        array(
+            "type" => "colorpicker", 
+            "heading" => __("Title overlay font color", "js_composer"),
+            "param_name" => "title_overlay_font_color",
+			"value" => __( "#ffffff", "samu-text-domain" ),				
+        ),
+		
+        array(
+            "type" => "textarea_html", 
+            "heading" => __("Description", "js_composer"),
+			"holder" => "div",
+            "class" => "",
+            "param_name" => "content", // Important: Only one textarea_html param per content element allowed and it should have "content" as a "param_name"
+            "value" => __( "<p>I am test text block. Click edit button to change this text.</p>", "samu-text-domain" ),
+		),
+		
+        array(
+            "type" => "colorpicker", 
+            "heading" => __("Description font color", "js_composer"),
+            "param_name" => "description_font_color",
+			"value" => __( "#ffffff", "samu-text-domain" )			
+		),
+		
+        array(
+            "type" => "textfield", 
+            "heading" => __("Description font size", "js_composer"),
+			"value" => __( "15px", "samu-text-domain" ),
+            "param_name" => "description_font_size",
+        ),		
+        array(
+            "type" => "colorpicker", 
+            "heading" => __("Background overlay", "js_composer"),
+			"value" => __( "#3085a3", "samu-text-domain" ),
+            "param_name" => "background_overlay",
+        ),
+        array(
+            "type" => "vc_link", 
+            "heading" => __("Url", "js_composer"),
+			"value" => __( "#", "samu-text-domain" ),
+            "param_name" => "link",
+        )	
+    )
+) );
+}
 
 // This function provides a functionality of adding content elements into element
 //class WPBakeryShortCode_SC_Slide extends WPBakeryShortCodesContainer {}
