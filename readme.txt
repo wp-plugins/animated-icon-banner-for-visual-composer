@@ -1,4 +1,4 @@
-=== Animated Icon Doo Banner ===
+=== Animated Doo Banners ===
 Contributors: diego.benna
 Tags: banner, visual composer
 Donate link: http://www.diegobenna.it
@@ -8,12 +8,12 @@ Stable tag: 4.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Animated Icons Doo Banner is an addon for Visual Composer which help you add interactive overlay effects on the sections displayed on your Web pages
+Animated Doo Banners is an addon for Visual Composer which help you add interactive overlay effects on the sections displayed on your Web pages
 
 == Description ==
-About AIDB in a Nutshell
+About ADB in a Nutshell
 
-Animated Icons Doo Banner is an addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages.
+Animated Doo Banners is an addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages.
 
 Main Features:
 <ul>

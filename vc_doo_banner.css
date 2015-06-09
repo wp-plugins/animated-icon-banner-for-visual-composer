@@ -43,6 +43,11 @@
   background-position: 0 0;
 }
 
+.vc_element-icon.dt_vc_img_banner {
+  background-image: url("./image-banner.png") !important;	
+  background-position: 0 0;
+}
+
 
 .service .hover {
   position: absolute;
