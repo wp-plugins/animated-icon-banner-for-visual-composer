@@ -2,7 +2,7 @@
 /*
 Plugin Name: Animated Doo Banners
 Description: Advance Banner for Visual Composer
-Version: 1.1
+Version: 1.2
 Author: Diego Benna
 Author URI: http://www.diegobenna.it
 License: GPL2

@@ -138,3 +138,7 @@ p {
   text-transform: uppercase;
   margin: 0;
 }
+
+.wf-container .service {
+font: normal normal normal 0px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
