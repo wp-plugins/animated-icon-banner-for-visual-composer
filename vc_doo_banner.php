@@ -191,13 +191,12 @@ function vc_doo_image_banner_func( $atts, $content) {
 		'title_overlay_font_color' => 'title_overlay_font_color',
 		'description_font_color'=>'description_font_color',
 		'description_font_size'=>'description_font_size',	 
-		'background' => 'background',
 		'background_overlay'=>'background_overlay',
 		'height' => 'height',
 		'link' => 'link'
     ), $atts ) );
     $href = vc_build_link( $link);
-    $end_content = '<a class="service websites" style="background-color:'.$background.';  height:'.$height.';" href="'.$href['url'].'" title="'.$href['title'].'">
+    $end_content = '<a class="service websites" style="height:'.$height.';" href="'.$href['url'].'" title="'.$href['title'].'">
                                 <span class="static">
                                     <span class="vcenter-parent">
                                         <span class="vcenter">
@@ -288,12 +287,6 @@ vc_map( array(
 			"value" => __( "15px", "samu-text-domain" ),
             "param_name" => "description_font_size",
         ),		
-        array(
-            "type" => "colorpicker", 
-            "heading" => __("Background", "js_composer"),
-			"value" => __( "#c6c8ca", "samu-text-domain" ),
-            "param_name" => "background",
-        ),
         array(
             "type" => "colorpicker", 
             "heading" => __("Background overlay", "js_composer"),
