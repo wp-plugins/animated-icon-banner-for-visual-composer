@@ -236,13 +236,6 @@ vc_map( array(
             "param_name" => "bg_image",
         ),
         array(
-            "type" => "textfield", // it will bind a img choice in WP
-            "heading" => __("Image size", "js_composer"),
-			"value" => __( "thumbnail", "samu-text-domain" ),
-            "description" => __( "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)). Leave parameter empty to use \"thumbnail\" by default." ),					
-            "param_name" => "image_size",
-        ),		
-        array(
             "type" => "textfield",
             "heading" => __("Height", "js_composer"),
 			"value" => __( "300", "samu-text-domain" ),
