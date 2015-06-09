@@ -238,7 +238,7 @@ vc_map( array(
         array(
             "type" => "textfield",
             "heading" => __("Height", "js_composer"),
-			"value" => __( "300", "samu-text-domain" ),
+			"value" => __( "300px", "samu-text-domain" ),
             "description" => __( "Banner max height in px.", "samu-text-domain" ),			
             "param_name" => "height",
         ),		
