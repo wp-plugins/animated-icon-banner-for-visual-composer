@@ -197,13 +197,9 @@ function vc_doo_image_banner_func( $atts, $content) {
     ), $atts ) );
     $href = vc_build_link( $link);
     $end_content = '<a class="service websites" style="height:'.$height.';" href="'.$href['url'].'" title="'.$href['title'].'">
-                                <span class="static">
-                                    <span class="vcenter-parent">
-                                        <span class="vcenter">
-											'.wp_get_attachment_image($bg_image, "full" ).'
-                                        </span><!-- .vcenter -->
-                                    </span><!-- .vcenter-parent -->
-                                </span><!-- /.static -->
+                                
+'.wp_get_attachment_image($bg_image, "full" ).'
+                            
                                 <span class="hover" style="background-color:'.$background_overlay.'">
                                     <span class="vcenter-parent">
                                         <span class="vcenter">
