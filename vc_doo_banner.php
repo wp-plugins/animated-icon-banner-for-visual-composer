@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Animated Icon Doo Banner
+Plugin Name: Animated Doo Banners
 Description: Advance Banner for Visual Composer
 Version: 1.1
 Author: Diego Benna
