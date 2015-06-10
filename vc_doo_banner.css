@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-span.title{
+a span.title, a:hover span.title {
     text-decoration: none;
 }
 
