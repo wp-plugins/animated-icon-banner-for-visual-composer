@@ -5,8 +5,7 @@
   overflow: hidden;
 }
 
-span.title a, span.title a:hover {
-    color: #D42A49;
+span.title{
     text-decoration: none;
 }
 
