@@ -15,7 +15,7 @@ Essential Doo Components is the original addon built for Visual Composer which h
 
 <h3 id="item-description__minimum-requirements">About Essential Doo Components in a Nutshell</h3>
 
-You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
+You can see <a href="http://www.piccoligiganti.it/animated-icon-doo-banner/">Essential Doo Components DEMO</a>.
 
 <p>Essential Doo Components for Visual Composer is the original addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages. If you don&#8217;t use Visual Composer you can use our shortcodes.</p>
 
@@ -66,7 +66,8 @@ You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo
 
 Plugin is compatible with the WordPress versions 3.9 and later (PHP v.5.2 or greater; Visual Composer 4.3 or later).
 
-You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
+
+You can see <a href="http://www.piccoligiganti.it/animated-icon-doo-banner/">Essential Doo Components DEMO</a>.
 
 == Installation ==
 <ol>
