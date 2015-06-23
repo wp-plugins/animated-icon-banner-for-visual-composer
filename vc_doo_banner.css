@@ -149,6 +149,15 @@ font: normal normal normal 0px "Roboto", Helvetica, Arial, Verdana, sans-serif;
 
 /* fashion */
 
+img.attachment-full{
+	width:100%!important;
+}
+
+figure.effect-altare img.attachment-full,
+figure.effect-centauro img.attachment-full{
+	width:150%!important;
+}
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -929,7 +938,44 @@ figure.effect-ercole:hover p {
 /***** Fenice *****/
 /*---------------*/
 
+figure.effect-fenice p {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		margin: 3em;
+		padding: 0 1em;
+		border-right: 4px solid #fff;
+		text-align: right;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s;
+		transition: opacity 0.35s;
+}
 
+figure.effect-fenice h2 {
+	text-align: left;
+	padding: 40px;
+}
+
+@media screen and (max-width: 480px) {
+	figure.effect-fenice p {
+		max-width: 100px;
+		font-size:60%!important;
+		line-height:110%!important;
+	}
+
+	figure.effect-fenice h2 {
+		padding: 20px;
+		font-size:100%!important;
+		line-height:110%!important;		
+	}
+}
+
+@media screen and (min-width: 480px) {
+	figure.effect-fenice p {
+		max-width: 150px;
+	}
+
+}
 
 figure.effect-fenice img {
 	opacity: 0.95;
@@ -953,24 +999,7 @@ figure.effect-fenice figcaption::before {
 	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
 
-figure.effect-fenice p {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	margin: 3em;
-	padding: 0 1em;
-	max-width: 150px;
-	border-right: 4px solid #fff;
-	text-align: right;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-}
 
-figure.effect-fenice h2 {
-	text-align: left;
-	  padding: 40px;
-}
 
 figure.effect-fenice:hover img {
 	opacity: 0.6;

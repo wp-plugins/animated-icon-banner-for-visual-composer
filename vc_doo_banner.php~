@@ -319,7 +319,43 @@ function vc_doo_fashion_banner_func( $atts, $content) {
 		'link' => 'link'
     ), $atts ) );
     $href = vc_build_link( $link);
-    $end_content = '<a href="http://codecanyon.net/item/animated-doo-banners-for-visual-composer/11788811" alt="Diego Benna Doo Wordpress">You find this special component in Pro version</a>';      
+    $end_content = '<div class="grid">';
+    if($fashion_style == "effect-camaleonte"){
+        $end_content .= '<figure style="max-height:'.$height.';" class="'.$fashion_style.'">';
+    }else{
+        $end_content .= '<figure style="max-height:'.$height.'; background: '.$background_overlay.';" class="'.$fashion_style.'">';    
+    }
+	
+$end_content .= wp_get_attachment_image($bg_image, "full" );
+
+    if($fashion_style == "effect-altare" || 
+       $fashion_style == "effect-andromeda" || 
+       $fashion_style == "effect-bulino" ||
+       $fashion_style == "effect-camaleonte" || 
+       $fashion_style == "effect-carena" ||
+       $fashion_style == "effect-cassiopea" || 
+       $fashion_style == "effect-centauro" || 
+       $fashion_style == "effect-dorado" || 
+       $fashion_style == "effect-ercole" || 
+       $fashion_style == "effect-fenice" || 
+       $fashion_style == "effect-giraffa"
+      )        
+    $end_content .= '<figcaption>
+							<div>
+								<h2 style="color:'.$title_overlay_font_color.';font-size:'.$title_font_size.';">'.$header.' <span>'.$header2.'</span></h2>
+								<p style="color:'.$description_font_color.';font-size:'.$description_font_size.';">'.$content.'</p>
+							</div>
+							<a class="service websites" href="'.$href['url'].'" title="'.$href['title'].'"></a>
+						</figcaption>';
+    
+    if($fashion_style == "effect-auriga")
+    $end_content .= '<figcaption>
+							<div>
+								<h2 style="color:'.$title_overlay_font_color.';font-size:'.$title_font_size.';">'.$header.' <span>'.$header2.'</span> <i style="color:'.$description_font_color.';font-size:'.$title_font_size.';">'.$content.'</i></h2>								
+							</div>
+							<a class="service websites" href="'.$href['url'].'" title="'.$href['title'].'"></a>
+						</figcaption>';			
+    $end_content .= '</figure></div>';    
     
     return $end_content;  
 }  
