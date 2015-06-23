@@ -15,12 +15,12 @@ About Essential Doo Components in a Nutshell
 
 <h3 id="item-description__minimum-requirements">What is this?</h3>
 
-	<p><a href="http://www.piccoligiganti.it/animated-icon-doo-banner/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/try-it-out-first2.png" /></a></p>
+<p><a href="http://www.piccoligiganti.it/animated-icon-doo-banner/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/try-it-out-first2.png"/></a></p>
 
 
 <p>Essential Doo Components for Visual Composer is the original addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages. If you don&#8217;t use Visual Composer you can use our shortcodes.</p>
 
-	<p><a href="http://www.piccoligiganti.it/doo-icon-banners/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/doo-icons.jpg" /></a></p>
+<p><a href="http://www.piccoligiganti.it/doo-icon-banners/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/doo-icons.jpg" /></a></p>
 
 
 <p>We have re-created 40+ different designs and a super Carousel, you can view them ALL from our preview site. Each design has a CSS3 hover effect that&#8217;s unique to each one.</p>
@@ -29,7 +29,7 @@ About Essential Doo Components in a Nutshell
 
 <h3 id="item-description__doo_carousel">The Best and Easiest Way to Create Content Carousels Ever
 
-	</h3><p><a href="http://www.piccoligiganti.it/animated-icon-doo-banner/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/carousel.png" /></a>
+</h3><p><a href="http://www.piccoligiganti.it/animated-icon-doo-banner/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/carousel.png" /></a>
 </p><p>We have taken carousel creation to the next level. With <strong>Doo Carousel</strong>, you can create carousels for Doo Components and any of your content. We&#8217;ve integrated into <strong>Visual Composer</strong> to bring you a <strong>very flexible, very lightweight and very intuitive</strong> carousel creation system. Change paddings, margins virtually any design element for your carousel.</p>
 
 
