@@ -15,13 +15,9 @@ Essential Doo Components is the original addon built for Visual Composer which h
 
 <h3 id="item-description__minimum-requirements">About Essential Doo Components in a Nutshell</h3>
 
-
-
+You can see <a href="http://www.studioinformatico.tk/index.php/animated-icon-doo-banner/">demo</a>.
 
 <p>Essential Doo Components for Visual Composer is the original addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages. If you don&#8217;t use Visual Composer you can use our shortcodes.</p>
-
-
-
 
 <p>We have re-created 40+ different designs and a super Carousel, you can view them ALL from our preview site. Each design has a CSS3 hover effect that&#8217;s unique to each one.</p>
 

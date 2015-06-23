@@ -11,16 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Essential Doo Components is the original addon built for Visual Composer which helps you add interactive overlay effects on the sections displayed on your pages.
 
 == Description ==
-About Essential Doo Components in a Nutshell
 
-<h3 id="item-description__minimum-requirements">What is this?</h3>
 
-<p><a href="http://www.piccoligiganti.it/animated-icon-doo-banner/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/try-it-out-first2.png"/></a></p>
+<h3 id="item-description__minimum-requirements">About Essential Doo Components in a Nutshell</h3>
+
+
 
 
 <p>Essential Doo Components for Visual Composer is the original addon built exclusively for Visual Composer which helps you add interactive overlay effects on the sections displayed on your Web pages. If you don&#8217;t use Visual Composer you can use our shortcodes.</p>
 
-<p><a href="http://www.piccoligiganti.it/doo-icon-banners/" rel="nofollow"><img src="http://www.piccoligiganti.it/wp-content/uploads/2015/06/doo-icons.jpg" /></a></p>
+
 
 
 <p>We have re-created 40+ different designs and a super Carousel, you can view them ALL from our preview site. Each design has a CSS3 hover effect that&#8217;s unique to each one.</p>
